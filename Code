@@ -1,0 +1,11 @@
+n = int(input(':'))
+i = 1
+r = []
+while i <= n:
+    b = int(input(':'))
+    r.append(b)
+    i +=1
+print(r)
+print(min(r))
+print(max(r))
+print(sum(r))
